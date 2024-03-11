@@ -155,6 +155,15 @@ address {
     color: #2e2f42;
     height: 600px;
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url('../images/hero/people-office.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-head-title {
@@ -227,6 +236,23 @@ button:focus {
 
 .quality-item {
     width: calc((100% - 3 * 24px) / 4);
+}
+
+.quality-item-icon {
+    height: 112px;
+    max-width: 100%;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-icon {
+    
+
 }
 
 .quality-subtitle {
@@ -302,6 +328,22 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.team-item-link {
+    fill: #f4f4fd;
+    background-color: #404BBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.team-item-link:hover, .team-item-link:focus {
+    color: 
 }
 
 /* #endregion */
@@ -405,4 +447,3 @@ button:focus {
 
 
 /* #endregion footer */
-
