@@ -62,6 +62,7 @@ address {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -116,6 +117,10 @@ address {
     color: #2e2f42;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.elect {
+    color:#404bbf;
 }
 
 .link-send.elect::after {
@@ -312,14 +317,13 @@ button:focus {
 .team-item {
     background-color:#ffffff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
 
 .team-wrapper {
-    padding: 32px 0 8px;
+    padding: 32px 0 32px;
     text-align: center;
 }
 
@@ -337,6 +341,7 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 8px;
 }
 
 .team-icon-list {
@@ -394,6 +399,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     max-width: calc((100% - 24px * 2) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-wrapper-image {
