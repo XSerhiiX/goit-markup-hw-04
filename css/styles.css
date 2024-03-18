@@ -477,10 +477,8 @@ button:focus {
 .footer-left {
     width: 262px;
     height: 112px;
-    margin-right: 120px;
-    
+    margin-right: 120px; 
 }
-
 
 .footer-span {
     font-family: 'Raleway', sans-serif;
@@ -509,10 +507,6 @@ button:focus {
 .footer-text {
     color: #f4f4fd;
     max-width: 264px;
-}
-
-.footer-social {
-
 }
 
 .footer-social-text {
