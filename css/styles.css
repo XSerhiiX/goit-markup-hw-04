@@ -224,8 +224,6 @@ button:focus {
 .quality {
     padding-bottom: 120px;
     padding-top: 120px;
-    width: 1158px;
-    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -296,8 +294,6 @@ button:focus {
 
 .team-title {
     margin-bottom: 72px;
-    height: 162px;
-    padding-top: 120px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -305,13 +301,11 @@ button:focus {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    
 }
 
 .team-item {
